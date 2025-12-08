@@ -46,7 +46,8 @@ const BottomSlider = () => {
                     animationDuration: `${duration}s`,
                     animationTimingFunction: 'linear',
                     animationIterationCount: 'infinite',
-                    animationFillMode: 'forwards'
+                    animationFillMode: 'forwards',
+                    willChange: "transform",
                 }}
             >
                 {/* Duplicate cards for seamless loop */}
