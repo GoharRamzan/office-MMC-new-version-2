@@ -1,38 +1,22 @@
+/* Purani wali delete kar do */
 @keyframes horizontal-scroll-d {
-  0% {
+  from {
     transform: translateX(0);
   }
-
-  100% {
+  to {
     transform: translateX(-50%);
   }
 }
 
 .animate-horizontal-scroll-d {
-  width: max-content;
-  animation: horizontal-scroll-d 25s linear infinite;
+  display: flex;
+  width: max-content; /* ye rakhna zaroori hai */
+  animation: horizontal-scroll-d linear infinite;
+  /* duration hum JS mein set kar rahe hain, yahan nahi likhna */
 }
 
 
 
-
-/* @keyframes vertical-scroll {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-50%);
-  }
-}
-
-.animate-vertical-scroll {
-  animation: vertical-scroll 5s linear infinite;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-} */
 
 
 @keyframes vertical-smooth-scroll {
@@ -67,9 +51,6 @@
 
 
 
-
-
-
 .scroll-card {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(59, 130, 246, 0.35);
@@ -82,3 +63,6 @@
   justify-content: space-between;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
+
+
+
