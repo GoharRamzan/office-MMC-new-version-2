@@ -174,7 +174,7 @@ const DoctorTable = () => {
       formData.append("image", fileList[0]);
     }
     else if (selectedDoctor?.IMAGE) {
-      formData.append("image", selectedDoctor?.IMAGE);
+      formData.append("image", selectedDoctor?.IMAGE);  
     }
     else if(!fileList[0]){
        values?.gender == "Female" ? formData.append("image", "femaleDoctor.png") : formData.append("image", "maleDoctor.png")  ;

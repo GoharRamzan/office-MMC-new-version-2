@@ -40,7 +40,7 @@ const Screen1Display = () => {
       <TopHeadline />
 
       {/* ===== MAIN SECTION ===== */}
-      <div className="flex flex-row  justify-center items-center w-full h-[75%] pt-16 mb-6 ">
+      <div className="flex flex-row  justify-center items-center w-full h-[75%] pt-16">
 
         {/* ===== CENTER IMAGE SLIDESHOW (70%) ===== */}
         <LeftImageSlider />
