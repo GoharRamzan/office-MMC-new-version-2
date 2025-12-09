@@ -51,7 +51,7 @@ const BottomSlider = () => {
             [@media(min-width:2200px)_and_(min-height:1200px)]:h-[25vh] 
             [@media(min-width:3200px)_and_(min-height:2000px)]:h-[21vh] 
             overflow-hidden bg-[#e0f2ff] border-t border-blue-200 
-            py-6 [@media(min-width:2200px)_and_(min-height:1200px)]:py-12 
+            py-6 px-5 [@media(min-width:2200px)_and_(min-height:1200px)]:py-12 
             mb-[45px]">
 
             {/* Sliding Container */}
