@@ -7,7 +7,8 @@ import ImageLoader from "../utills/ImageLoader";
 import { useNavigate } from "react-router-dom";
 import { logoutUser } from "../reduxToolKit/authSlice";
 import { toast } from "react-toastify";
-import NubitLogo from ".././assets/nubit logo png.png"
+import NubitLogo from ".././assets/nubit logo png.png";
+import logo from "../assets/MMC logo.png";
 
 
 
@@ -133,6 +134,20 @@ const Screen2Display = () => {
     return (
         // <div className="flex items-center justify-center h-screen bg-gradient-to-br from-[#e28585] to-black overflow-hidden relative text-white">
         <div className="flex items-center justify-center h-screen bg-gradient-to-br from-[#001f3f] via-[#004080] to-[#000814] overflow-hidden relative text-white">
+
+            <div className="flex absolute top-4 [@media(min-width:4200px)]:top-8 left-4 [@media(min-width:4200px)]:left-8 items-center gap-4 [@media(min-width:3200px)]:gap-8 [@media(min-width:4400px)]:gap-12">
+                <div className="bg-white/10 backdrop-blur-md p-2 rounded-full border border-[#00b0ff]/30">
+                    <img src={logo} alt="logo" className="h-12 min-[2000px]:h-16 [@media(min-width:3000px)]:h-18  [@media(min-width:4400px)]:h-30 w-12 min-[2000px]:w-16 [@media(min-width:3000px)]:w-18 [@media(min-width:4400px)]:w-30 object-contain" />
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold min-[2000px]:text-5xl [@media(min-width:3200px)]:text-6xl  [@media(min-width:4400px)]:text-7xl text-white tracking-wide drop-shadow">
+                        Memon Medical Complex
+                    </h1>
+                    <p className="text-[#a7c8e8] text-sm italic min-[2000px]:text-2xl [@media(min-width:3000px)]:text-3xl [@media(min-width:4400px)]:text-5xl ">
+                        “Serving with Excellence & Care”
+                    </p>
+                </div>
+            </div>
 
             <div onClick={logoutHandler} className="mt-1 flex items-center gap-2 cursor-pointer z-50 absolute right-5 [@media(min-width:4200px)]:right-10 bottom-5 [@media(min-width:4200px)]:bottom-8 text-white/60 [@media(min-width:1520px)]:text-xl [@media(min-width:2200px)]:text-3xl [@media(min-width:3200px)]:text-4xl  [@media(min-width:4200px)]:text-5xl">
                 {/* Powered by <span className="text-[#00b0ff] font-bold">nubit</span> */}

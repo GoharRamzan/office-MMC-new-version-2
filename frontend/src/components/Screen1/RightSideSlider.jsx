@@ -35,7 +35,7 @@ const RightSideSlider = () => {
 
       {/* Heading */}
       <h2 className="text-center hb:bg-amber-200 text-2xl [@media(min-width:3200px)_and_(max-height:2000px)]:text-4xl [@media(min-width:3200px)_and_(min-height:2000px)]:text-5xl [@media(min-width:4200px)_and_(min-height:2600px)]:text-6xl font-bold text-blue-900 tracking-wide pb-2 [@media(min-width:3200px)_and_(max-height:2000px)]:pb-4 [@media(min-width:3200px)_and_(min-height:2000px)]:pb-6 border-b border-blue-300/40 mb-3">
-        MMC Designations 
+        Memon Medical Complex Consultant
       
       </h2> 
 

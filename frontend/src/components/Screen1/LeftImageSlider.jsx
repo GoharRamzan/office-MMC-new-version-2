@@ -60,9 +60,7 @@ const LeftImageSlider = () => {
                         />
                     </>
                     :
-                    // Loading Animation
                     <ImageLoader />
-
             }
         </div>
     )

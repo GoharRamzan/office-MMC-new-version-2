@@ -1,4 +1,3 @@
-
 import S4Clock from "../components/Screen4/S4Clock";
 import TodayDoctorsList from "../components/Screen4/TodayDoctorsList";
 import S4LeftSideImages from "../components/Screen4/S4LeftSideImages";
@@ -10,6 +9,7 @@ const Screen4Display = () => {
 
   return (
     <div className="h-screen w-screen bg-[#12154b] flex text-white overflow-hidden font-sans select-none relative">
+
 
       {/* LEFT IMAGE */}
       <S4LeftSideImages />
